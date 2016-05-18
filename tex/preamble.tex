@@ -1,0 +1,36 @@
+% !TeX root = DistributedConsensus.tex
+\usepackage[english]{babel}
+\usepackage{babelbib}
+\usepackage[justification=centering]{caption}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[plainpages=false,pdfpagelabels,hidelinks]{hyperref}
+\usepackage{titlepic}
+\usepackage[utf8]{inputenc}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{pdfpages}
+\usepackage{tabularx}
+\usepackage{tocbibind}
+\usepackage{imakeidx}
+\usepackage[totoc]{idxlayout}
+
+\setcounter{tocdepth}{1}
+
+\pdfsuppresswarningpagegroup=1
+
+\newcommand{\newpar}{\bigskip\noindent}
+
+\addto\extrasenglish{%
+	\renewcommand{\subsectionautorefname}{section}%
+	\renewcommand{\subsubsectionautorefname}{section}%
+    \renewcommand{\figureautorefname}{figure}%
+    \renewcommand{\tableautorefname}{table}%
+}
+
+
+\floatstyle{plain}
+\newfloat{invariant}{tbph!}{inv}
+\floatname{invariant}{Invariant}
