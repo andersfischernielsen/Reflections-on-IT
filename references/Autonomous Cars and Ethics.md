@@ -6,7 +6,7 @@
 ### Noter
 * Autonomous cars save lives.
 * Autonomous cars might be implicated in deaths of people currently living (not unborn kids, like if de deplete resources and their basis of existence is changed before they are born, see http://plato.stanford.edu/entries/nonidentity-problem/)
-* Since autonomous cars save lives overall, it's good ethically - according to consequentialism
+w
 * People killed are okay, since they would be accident victims either way, and therefore not victims at all. 
 * Even deontologists would say that this isn't ethically wrong, since killing on accident can't be a bad thing to do - it's impossible to avoid. 
 * Butterfly Theorem - introducing autonomous cars might be good or bad in the future, since it changes lives. Maybe dad lost his job as a taxi driver, which in turn gave him more time with his son, who became a doctor due to this. 
