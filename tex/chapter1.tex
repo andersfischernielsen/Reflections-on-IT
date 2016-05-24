@@ -2,23 +2,25 @@
 
 Experiments attempting to automate vehicles, mainly cars, have been made since the 1920's with varying degrees of automation and success. 
 
-This essay will focus on \textit{autonomous} cars, not just automated cars. Autonomous is, as per Thesaurus, defined as: 
+This essay will focus on \textit{autonomous} cars, and not \textit{automated} cars. Autonomous is, as per Thesaurus, defined as: 
 
+\begin{quote}
+	\blockquote{\textit{an autonomous republic}: self-governing, independent, sovereign, free, self-ruling, self-determining, autarchic; self-sufficient.}
+\end{quote}
 
-\bigskip \blockquote{\textit{an autonomous republic}: self-governing, independent, sovereign, free, self-ruling, self-determining, autarchic; self-sufficient.}
+\noindent \textit{Automation} implies that cars merely follow artificial hints in the environments, such as early experiments using magnetic strips in the road. \cite{wiki:autonomoushistory}
+\textit{Autonomous} implies that cars react to their environment independently, that is they cannot depend on unnatural artefacts in their surrounding environment in order to follow the road, not crash and avoid obstacles.
 
-\newpar \textit{Automation} implies that cars merely follow artificial hints in the environments, such as early experiments using magnetic strips in the road. 
-\textit{Autonomous} implies that cars react to their environment independently, that is they cannot depend on unnatural artefacts in their surrounding environment in order to drive properly. 
+\newpar Modern research has been focused on autonomous cars, since it is unrealistic to add artificial hints on every road in the world. Rather, research has been focused on making autonomous cars adapt to environments with uncertainties, so that the same autonomous vehicle can drive both in the inner city and on unpaved mountain roads. Modern vehicles furthermore have an increasing amount of automation built in, which has not brought any ethical dilemmas. On the other hand, the idea of having truly autonomous vehicles brings certain dilemmas with it, that can be researched. I will therefore not look at \textit{automatic} vehicles in this essay, but focus on \textit{autonomous} vehicles. 
 
-Modern research has been focused on the latter, since it is unrealistic to add artificial hints on every road in the world. Rather, research has been focused on making autonomous cars adapt to environments with uncertainties, so that the same autonomous car can drive in the inner city and on mountain roads. I will therefore not look at automatic vehicles in this essay, but instead autonomous vehicles. 
+\newpar Recent research projects use radar or radar-like technology in addition to GPS, odometers and computer vision in and on cars to detect the environment surrounding the car and recognise obstacles, such as people, other cars and structures, which the car will try to avoid. The addition of the radar-like LIDAR technology (a mix of the words light and radar) on the roof of the cars has provided the cars with a 200 foot-radius "view" of their surroundings, enabling them to sense the world around them in great detail. LIDAR generates a precise point cloud of the environment surrounding the car, enabling the on-board software to distinguish a running child from a bicyclist.
 
-Recent research projects use radar or radar-like technology in addition to GPS, odometers and computer vision in and on cars to detect the environment surrounding the car and recognise obstacles, such as people, other cars and structures, which the car will try to avoid. The addition of the radar-like LIDAR technology (a mix of the words light and radar) on the roof of the cars has provided the cars with a 200 foot-radius "view" of their surroundings, enabling them to sense the world around them in great detail. 
-
-\section{Google's Autonomous Car Project}
-Google has been researching autonomous cars since 2009 \cite{googlecars}. Over the years the project has been ongoing, the cars have developed a detailed view of their surroundings. In addition to the computer vision research the company has developed and implemented in the cars, LIDAR helps the car map its surroundings, enabling it to recognise smaller objects such as pedestrians and bicyclists. 
+Google has been researching autonomous cars since 2009 \cite{googlecars}. Over the years the research project has been ongoing, the cars have developed a detailed view of their surroundings. In addition to the computer vision research the company has developed and implemented in the cars, LIDAR helps the car map its surroundings, enabling it to recognise smaller objects such as pedestrians and bicyclists. Google is using the computer vision technology it has been developing and researching to analyse the surrounding environment perceived through stereo cameras mounted on the car to detect possible collisions around the car. The sensors on the car generate 1GB of data per second\cite{datagathering}, which is analysed in order to give a precise depiction of the surrounding environment of the car. 
 
 \section{Motivations for Developing Autonomous Vehicles}
 The main motivation for developing autonomous vehicles is that human drivers are prone to make mistakes. Human drivers get distracted, have relatively slow reaction times, do not always behave logically such as when angry or tired. Furthermore, human drivers sometimes drink while under the influence of drugs, which severely inhibits the driver's ability to react in time to avoid collisions. 
+
+\newpar Distracted drivers left 5000 people killed and 450000 people injured during 2009. \cite{distracteddriving} \todo[inline]{Elaborate.}
 
 Labor costs of human drivers can also be eliminated, traffic jams might be reduced\footnote{So-called shockwave traffic-jams caused by human error, are researched in \cite{1367-2630-10-3-033001}}, and vehicles might be able to park more efficiently, drive faster, and occupants of the car might have time to be more work while driving. 
 
